@@ -5,6 +5,9 @@ Any counting system is prone to recording errors including under-reporting and o
 For the purpose of the study, the true count is assumed to follow Poisson distribution with mean λ. However, modelling underreported count data using a Poisson model poses some difficulties, particularly in estimation of the model parameter λ. When the data has not been contaminated by any reporting errors, estimate of the model parameter λ is the sample mean but in the presence of reporting errors, the sample mean is a biased estimate of λ. 
 Thus, we propose extension of the standard Poisson model so that under-reporting patterns can be captured. Also, a key assumption that is made for the under-reporting model is that the reporting probability is constant and identical for all circumstances. However, in practise the reporting probability might change under different circumstances.
 So, to summarize, the objective of this dissertation is three-fold:
+
 a)	Correct estimation of the true model parameter λ, based on a sample of size n where the error-prone data is observed and a subsample of size r where the true count is observed. 
+
 b)	Optimum allocation of sample size n and internal validation sample r, optimization in terms of increasing the precision of the corrected estimator while keeping the cost of survey at a fixed level.
+
 c)	Investigating the problem of allocation of resources between validation and non-validation units.
